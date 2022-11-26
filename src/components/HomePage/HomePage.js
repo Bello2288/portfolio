@@ -8,7 +8,8 @@ function HomePage() {
   return (
     <main className="footer-container">
       <div className="name-tag">Gregg's Portfolio - Home Page</div>
-      <Nav.Link className="aboutme-link" href="/about_me">About Me</Nav.Link>
+      <Nav.Link className='aboutme-link' href="/about_me">About Me</Nav.Link>
+      <Nav.Link className='projects-link' href="/my_projects">My Projects</Nav.Link>
     </main>
   );
 }

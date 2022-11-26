@@ -6,6 +6,7 @@ import Cookies from "js-cookie";
 import Layout from "../Layout/Layout";
 import HomePage from "../HomePage/HomePage";
 import AboutMe from "../AboutMe/AboutMe";
+import MyProjects from '../MyProjects/MyProjects';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" element={<Layout />} >
             <Route index element={<HomePage />} />
             <Route path="about_me" element={<AboutMe />} />
+            <Route path="my_projects" element={<MyProjects />} />
           </Route>
         </Routes>
       </BrowserRouter>
