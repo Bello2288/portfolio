@@ -7,6 +7,7 @@ import Layout from "../Layout/Layout";
 import HomePage from "../HomePage/HomePage";
 import AboutMe from "../AboutMe/AboutMe";
 import MyProjects from '../MyProjects/MyProjects';
+import ContactInfo from '../ContactInfo/ContactInfo';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="about_me" element={<AboutMe />} />
             <Route path="my_projects" element={<MyProjects />} />
+            <Route path="contact_info" element={<ContactInfo />} />
           </Route>
         </Routes>
       </BrowserRouter>
