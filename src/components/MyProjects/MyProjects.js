@@ -14,6 +14,7 @@ function MyProjects() {
         <section className='project-list'>
           <a href="https://github.com/Bello2288">Visit my GitHub Page</a>
           <a href="https://on-deck-bello2288.herokuapp.com/">On Deck</a>
+          <a href="https://bello2288.github.io/django_newspaper_app/">Django News Paper App</a>
           <a href="https://bello2288.github.io/Pixle-Perfect/">Pixel Perfect</a>
         </section>
         <Button 
