@@ -17,23 +17,23 @@ function MyProjects() {
       <main>
         <p>This is the My Projects Page</p>
         <section className='project-list'>
-          <div className='link-flex'>
+          <div className='link-box'>
             <a href="https://github.com/Bello2288" target="_blank"><img className='link-img' src={github} alt="github_logo"></img></a>
             <p>Visit my GitHub Page</p>
           </div>
-          <div>
+          <div className='link-box'>
             <a href="https://on-deck-bello2288.herokuapp.com/" target="_blank"><img className='link-img' src={on_deck} alt="on_deck"></img></a>
             <p>On Deck</p>
           </div>
-          <div>
+          <div className='link-box'>
             <a href="https://newspaper-app-bello2288.herokuapp.com/" target="_blank"><img className='link-img' src={news_app} alt="news_app"></img></a>
             <p>Django News Paper App</p>
           </div>
-          <div>
+          <div className='link-box'>
             <a href="https://bello2288.github.io/Pixle-Perfect/" target="_blank"><img className='link-img' src={pixel_perfect} alt="pixel_perfect"></img></a>
             <p>Pixel Perfect</p>
           </div>
-          <div>
+          <div className='link-box'>
             <a href="https://bello2288.github.io/js-calculator/" target="_blank"><img className='link-img' src={calculator} alt="calculator"></img></a>
             <p>JS Calculator</p>
           </div>

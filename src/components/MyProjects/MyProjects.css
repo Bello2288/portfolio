@@ -4,11 +4,25 @@
     flex-wrap: wrap;
     width: 90%;
     margin: auto;
+    /* border: 3px solid blue; */
     /* flex-direction: column; */
 }
 
 .link-img {
     height: 300px;
     width: 430px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    /* border: 3px solid red; */
+}
+
+.link-box {
+    /* border: 3px solid green; */
+    background-color: #2b2b2b;
+    border-radius: 20px;
     margin: 15px;
+}
+.link-box > p {
+    /* border: 3px solid green; */
+    padding-top: 10px;
 }
