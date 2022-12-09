@@ -1,5 +1,14 @@
 .project-list {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    /* flex-direction: column; */
 }
 
+.link-img {
+    height: 300px;
+    width: 430px;
+    margin: 15px;
+}
