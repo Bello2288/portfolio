@@ -6,6 +6,7 @@ import on_deck from '../../images/on_deck.png'
 import news_app from '../../images/news_app.png'
 import pixel_perfect from '../../images/pixel_perfect.png'
 import calculator from '../../images/calculator.png'
+import war_game from '../../images/war_game.png'
 
 
 
@@ -36,6 +37,10 @@ function MyProjects() {
           <div className='link-box'>
             <a href="https://bello2288.github.io/js-calculator/" target="_blank"><img className='link-img' src={calculator} alt="calculator"></img></a>
             <p>JS Calculator</p>
+          </div>
+          <div className='link-box'>
+            <a href="https://bello2288.github.io/js-war-game/" target="_blank"><img className='link-img' src={war_game} alt="war_game"></img></a>
+            <p>War Game</p>
           </div>
         </section>
         <Button 
