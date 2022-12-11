@@ -5,6 +5,13 @@ import Carousel from 'react-bootstrap/Carousel';
 import city from '../../images/city.jpeg';
 import foggy from '../../images/foggy.jpeg';
 import moon from '../../images/moon.jpeg';
+import boy_dogs from '../../images/boy_dogs.jpeg';
+import girl_dogs from '../../images/girl_dogs.jpeg';
+import family from '../../images/family.jpeg';
+import pigs from '../../images/pigs.jpeg';
+import goats from '../../images/goats.jpeg';
+import kids from '../../images/kids.jpeg';
+import wife from '../../images/wife.jpeg';
 
 function App() {
 
@@ -27,7 +34,7 @@ function App() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={city}
+              src={family}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -38,7 +45,7 @@ function App() {
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-img"
-              src={foggy}
+              src={kids}
               alt="Second slide"
             />
 
@@ -50,7 +57,7 @@ function App() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={moon}
+              src={wife}
               alt="Third slide"
             />
 
