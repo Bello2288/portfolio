@@ -2,26 +2,60 @@
  
  
 .testing {
-   width: 60%;
-   height: 400px;
+   width: 80%;
+   height: 350px;
    object-fit: cover;
+   border-radius: 15px;
+}
+
+.pic1 {
+   object-position: 0px -95px;
+}
+.pic3 {
+   object-position: 0px -45px;
+}
+.pic4 {
+   object-position: 0px -155px;
 }
 
  
  .flex-carousel {
     display: flex;
+    margin-bottom: 15px;
  }
  
  .carousel-container {
-    width: 500px;
-    height: 300px;
-    max-height: 300px;
+    width: 55%;
     margin: auto;
  }
 
- .carousel-img {
+ .carousel-indicators {
+   margin-bottom: 0;
+   background-color: #232222;
+   position: absolute;
+   right: -5%;
+   left: -5%;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+ }
+
+ .carousel-caption {
+   padding: 0;
+   height: 26px;
+   background-color: #232222;
+   position: absolute;
+   right: 10%;
+   bottom: 1.25rem;
+   left: 10%;
+ }
+ .carousel-caption > p {
+   padding: 0;
+   margin: 0;
+ }
+
+ /* .carousel-img {
     object-fit: cover;
     object-position: center;
     width: 500px;
     height: 300px;
- }
+ } */

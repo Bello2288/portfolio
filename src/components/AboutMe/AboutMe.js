@@ -13,18 +13,18 @@ import goats from '../../images/goats.jpeg';
 import kids from '../../images/kids.jpeg';
 import wife from '../../images/wife.jpeg';
 
-import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+// import React from 'react';
+// import AliceCarousel from 'react-alice-carousel';
+// import 'react-alice-carousel/lib/alice-carousel.css';
 
 
-const handleDragStart = (e) => e.preventDeafult();
+// const handleDragStart = (e) => e.preventDeafult();
 
-const items = [
-  <img className='testing' src={family} onDragStart={handleDragStart} role="presentation" />,
-  <img className='testing' src={kids} onDragStart={handleDragStart} role="presentation" />,
-  <img className='testing' src={wife} onDragStart={handleDragStart} role="presentation" />,
-];
+// const items = [
+//   <img className='testing' src={family} onDragStart={handleDragStart} role="presentation" />,
+//   <img className='testing' src={kids} onDragStart={handleDragStart} role="presentation" />,
+//   <img className='testing' src={wife} onDragStart={handleDragStart} role="presentation" />,
+// ];
 
 function App() {
 
@@ -41,94 +41,98 @@ function App() {
         <p>watching movies, and being active in sports.</p>
       </section>
 
-      <AliceCarousel 
+      {/* <AliceCarousel 
       mouseTracking 
       disableButtonsControls
-      items={items} />
+      items={items} /> */}
 
 
 
-      {/* <section className='flex-carousel'>
+      <section className='flex-carousel'>
         <Carousel fade className='carousel-container'>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="testing pic1"
               src={family}
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p>This is my family!</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100 carousel-img"
+              className="testing"
               src={kids}
               alt="Second slide"
             />
 
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>My three kids (From left: Jared, Brenden, Courtney)</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="testing pic3"
               src={wife}
               alt="Third slide"
             />
 
             <Carousel.Caption>
-              <h3>Third slide label</h3>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                This is Sarah. We have been married for 17 years.
               </p>
             </Carousel.Caption>
           </Carousel.Item>
-        </Carousel> */}
+        </Carousel>
 
-        {/* <Carousel fade className='carousel-container'>
+        <Carousel fade className='carousel-container'>
           <Carousel.Item>
             <img
-              className="d-block w-100"
-              src={city}
+              className="testing pic4"
+              src={pigs}
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p>Our baby piggies - Rosie and Ginger</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
-              src={foggy}
+              className="testing"
+              src={goats}
               alt="Second slide"
             />
-
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>The sweet goats - Ridge, Sage, Rockey, Willow</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
-              src={moon}
+              className="testing"
+              src={boy_dogs}
               alt="Third slide"
             />
-
             <Carousel.Caption>
-              <h3>Third slide label</h3>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                This is Charlie and Ryder
               </p>
             </Carousel.Caption>
           </Carousel.Item>
-        </Carousel> */}
-      {/* </section> */}
+          <Carousel.Item>
+            <img
+              className="testing"
+              src={girl_dogs}
+              alt="Third slide"
+            />
+            <Carousel.Caption>
+              <p>
+                Our guardian dogs Athena and River
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </section>
 
       <Button
         className='back-btn'
