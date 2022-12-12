@@ -1,3 +1,13 @@
+@import "react-alice-carousel/lib/alice-carousel.css"; 
+ 
+ 
+.testing {
+   width: 60%;
+   height: 400px;
+   object-fit: cover;
+}
+
+ 
  .flex-carousel {
     display: flex;
  }
