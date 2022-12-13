@@ -24,10 +24,14 @@ function MyProjects() {
           </div>
           <div className='link-box'>
             <a href="https://on-deck-bello2288.herokuapp.com/" target="_blank"><img className='link-img' src={on_deck} alt="on_deck"></img></a>
-            <p>On Deck</p>
+            <p>On Deck - 
+              <span className='span'> Click </span> 
+              <a href="https://www.loom.com/share/dd596fb73ab24fc785a97a547d92059f" target="_blank"> here </a> 
+              <span className='span'>to watch my video walk-through!</span>
+            </p>
           </div>
           <div className='link-box'>
-            <a href="https://newspaper-app-bello2288.herokuapp.com/" target="_blank"><img className='link-img' src={news_app} alt="news_app"></img></a>
+            <a className='video-link' href="https://newspaper-app-bello2288.herokuapp.com/" target="_blank"><img className='link-img' src={news_app} alt="news_app"></img></a>
             <p>Django News Paper App</p>
           </div>
           <div className='link-box'>
