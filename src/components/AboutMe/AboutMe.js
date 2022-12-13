@@ -75,7 +75,7 @@ function App() {
             <img
               className="testing pic3"
               src={wife}
-              alt="Third slide"
+              alt="Third slide" 
             />
 
             <Carousel.Caption>

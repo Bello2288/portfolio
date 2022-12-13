@@ -5,7 +5,7 @@
    width: 80%;
    height: 350px;
    object-fit: cover;
-   border-radius: 15px;
+   border-radius: 15px; 
 }
 
 .pic1 {
@@ -59,3 +59,37 @@
     width: 500px;
     height: 300px;
  } */
+
+
+
+ @media(min-width: 1375px) {
+
+   /* family */
+   .pic1 {
+      object-position: 0px -95px;
+   }
+   /* wife */
+   .pic3 {
+      object-position: 0px -45px;
+   }
+   /* pigs */
+   .pic4 {
+      object-position: 0px -195px;
+   }
+ }
+
+ @media(min-width: 1495px) {
+
+   /* family */
+   .pic1 {
+      object-position: 0px -115px;
+   }
+   /* wife */
+   .pic3 {
+      object-position: 0px -65px;
+   }
+   /* pigs */
+   .pic4 {
+      object-position: 0px -235px;
+   }
+ }
