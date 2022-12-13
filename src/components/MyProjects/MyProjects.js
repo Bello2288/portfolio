@@ -19,7 +19,7 @@ function MyProjects() {
         <p>This is the My Projects Page</p>
         <section className='project-list'>
           <div className='link-box'>
-            <a href="https://github.com/Bello2288" target="_blank"><img className='link-img' src={github} alt="github_logo"></img></a>
+            <a href="https://github.com/Bello2288" target="_blank"><img className='link-img github' src={github} alt="github_logo"></img></a>
             <p>Visit my GitHub Page</p>
           </div>
           <div className='link-box'>
