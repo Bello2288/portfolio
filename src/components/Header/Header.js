@@ -8,31 +8,30 @@ function Header() {
   // const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
     return (  
-      // <header>
-      //   <p>This is the Header</p>            
-      // </header>
-      <Nav variant="pills" defaultActiveKey="/" >
-        <Nav.Item>
-          <Nav.Link eventKey="/" href="/">
-            Home
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="/about_me" href="/about_me" title="Item">
-            About Me
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="/my_projects" href="/my_projects">
-            My Projects
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="/contact_info" href="/contact_info">
-            Contact Me
-          </Nav.Link>
-        </Nav.Item>
-      </Nav>
+      <header className='header'>        
+        <Nav  activeKey="/" >
+          <Nav.Item>
+            <Nav.Link href="/" className='nav_link'>
+              Home
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="/about_me" className='nav_link'>
+              About Me
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="/my_projects" className='nav_link'>
+              My Projects
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="4" href="/contact_info" className='nav_link'>
+              Contact Me
+            </Nav.Link>
+          </Nav.Item>
+        </Nav>
+      </header>
     );
   }
   

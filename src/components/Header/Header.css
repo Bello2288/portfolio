@@ -1,0 +1,11 @@
+.header {
+    background-color: #161616;
+    font-size: 30px;
+    margin-bottom: 35px;
+    border-bottom: 2px solid #a08125;
+}
+
+.nav_link {
+    color: #a08125;
+    margin-right: 25px;
+}
