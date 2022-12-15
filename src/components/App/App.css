@@ -14,15 +14,9 @@
   right: 0;
   left: 0;
   bottom: 0;
-  /* background-image: url(../../images/city.jpeg); */
-  background-image: url(../../images/dice.webp);
-  /* background-image: url(../../images/foggy.jpeg); */
-  /* background-image: url(../../images/green-mountain.jpeg); */
-  /* background-image: url(../../images/moon.jpeg); */
-  /* background-image: url(../../images/morning.jpeg); */
-  /* background-image: url(../../images/spiral_sky.jpeg); */
-  /* background-image: url(../../images/vibrant_sky.jpeg); */
-  /* background-image: url(../../images/whoa.jpeg); */
+  /* background-image: url(../../images/blue-futuristic.webp); */
+  background-image: url(../../images/digital-abstract.jpeg);
+  /* background-image: url(../../images/letters_numbers.jpeg); */
   background-repeat: no-repeat;
   background-attachment: fixed; 
   user-select: none;
@@ -30,7 +24,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: brightness(70%);
+  filter: blur(3px) brightness(60%);
+  -webkit-filter: blur(3px) brightness(60%);
 }
  
 

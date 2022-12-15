@@ -1,11 +1,12 @@
 .header {
-    background-color: #161616;
+    /* background-color: #360c0c; */
+    background-image: linear-gradient(to bottom right, #1a1414, #5f1919);
     font-size: 30px;
     margin-bottom: 35px;
-    border-bottom: 2px solid #a08125;
-}
+    border-bottom: 2px solid #000000;
+}   
 
 .nav_link {
-    color: #a08125;
+    color: rgb(189, 189, 189);
     margin-right: 25px;
 }
