@@ -16,7 +16,7 @@ function App() {
   const navigate = useNavigate(); 
 
   return (
-    <div className="App">
+    <div className="about">
       <section className='about-box'>
         <h1>About Me</h1>
         <div className='about-text'>
