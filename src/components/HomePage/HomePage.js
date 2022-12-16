@@ -35,10 +35,14 @@ function HomePage() {
       <div className="bree-serif">Gregg Bellofatto</div>
       <div className="cabin-sketch">Gregg Bellofatto</div>
       <div className="caveat">Gregg Bellofatto</div>
-      <div className="">Gregg Bellofatto</div>
+{/*       
       <Nav.Link className='aboutme-link' href="/about_me">About Me</Nav.Link>
       <Nav.Link className='projects-link' href="/my_projects">My Projects</Nav.Link>
-      <Nav.Link className='contact-link' href='/contact_info'>Contact Info</Nav.Link>
+      <Nav.Link className='contact-link' href='/contact_info'>Contact Info</Nav.Link> */}
+      <div className='quote-box'>
+        <h2 className='quote'>Don't count the days. Make the days count.</h2>
+        <p className='author'> -Muhammad Ali</p>
+      </div>
     </main>
   );
 }

@@ -66,3 +66,17 @@
     font-size: 75px;
     color: rgb(149, 149, 149);
 }
+
+
+.quote-box {
+    margin-top: 25px;
+}
+.quote {
+    font-size: 45px;
+    color: #898989;
+}
+
+.author {
+    font-size: 25px;
+    color: #898989;
+}

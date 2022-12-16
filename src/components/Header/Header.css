@@ -1,5 +1,7 @@
 .header {
     /* background-color: #360c0c; */
+    font-family: 'Fredericka the Great', cursive;
+    /* font-family: 'Rubik 80s Fade', cursive; */
     background-image: linear-gradient(to bottom right, #1a1414, #5f1919);
     font-size: 30px;
     margin-bottom: 35px;
@@ -8,5 +10,5 @@
 
 .nav_link {
     color: rgb(189, 189, 189);
-    margin-right: 25px;
+    margin: 0 15px 0 15px
 }
