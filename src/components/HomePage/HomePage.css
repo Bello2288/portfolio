@@ -39,8 +39,8 @@
 
 .rubik-80s-fade {
     font-family: 'Rubik 80s Fade', cursive;
-    font-size: 75px;
-    color: rgb(149, 149, 149);
+    font-size: 70px;
+    color: rgb(255, 255, 255);
 }
 
 .black-ops-one {
@@ -69,7 +69,7 @@
 
 
 .quote-box {
-    margin-top: 25px;
+    margin-top: 65px;
 }
 .quote {
     font-size: 45px;
@@ -79,4 +79,42 @@
 .author {
     font-size: 25px;
     color: #898989;
+}
+
+.name_role_box {
+    margin: auto 0;
+}
+
+.role {
+    font-family: 'Rubik 80s Fade', cursive;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.name-pic_box {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 45px;
+}
+
+.background_box {
+    position: relative;
+}
+
+.black_background {
+    position: absolute;
+    top: 10px;
+    transform: rotate(-8deg);
+    /* box-shadow: 5px 10px #888888; */
+    box-shadow: -10px -10px 8px rgba(218, 215, 215, 0.2);
+    background-color: #181818;
+    height: 350px;
+    width: 350px;
+}
+.homepage_pic { 
+    transform: rotate(8deg);
+    box-shadow: 10px 10px 8px rgba(236, 10, 10, 0.44);
+    margin: 25px 0 0 25px;
+    height: 350px;
+    width: 350px;
 }

@@ -2,6 +2,7 @@ import './HomePage.css';
 import Nav from "react-bootstrap/Nav";
 import ReactCurvedText from 'react-curved-text'
 import NameTitle from '../Title/Title'
+import homepage_pic from '../../images/homepage_pic.jpeg';
 
 
 
@@ -15,9 +16,15 @@ function HomePage() {
       <div className="lobster">Gregg Bellofatto</div>
       <div className="nothing-you-can-do">Gregg Bellofatto</div>
       <div className="playball">Gregg Bellofatto</div> */}
-      <section>
-        <div className="rubik-80s-fade">Gregg Bellofatto</div>
-        <img src="" alt="homepage pic" />
+      <section className='name-pic_box'>
+        <div className='name_role_box'>
+          <h2 className="rubik-80s-fade">Gregg Bellofatto</h2>
+          <p className='role'>Software Developer</p>
+        </div>
+        <div className='background_box'>
+          <div className='black_background'></div>
+          <img className='homepage_pic' src={homepage_pic} alt="homepage pic" />
+        </div>
       </section>
       
       {/* <div className="black-ops-one">Gregg Bellofatto</div>
