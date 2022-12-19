@@ -3,6 +3,10 @@ import Nav from "react-bootstrap/Nav";
 import ReactCurvedText from 'react-curved-text'
 import NameTitle from '../Title/Title'
 import homepage_pic from '../../images/homepage_pic.jpeg';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsGithub } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs'
+
 
 
 
@@ -24,6 +28,11 @@ function HomePage() {
         <div className='background_box'>
           <div className='black_background'></div>
           <img className='homepage_pic' src={homepage_pic} alt="homepage pic" />
+          <div className='social_icons'>
+            <a className='linkedin' href='https://www.linkedin.com/in/gregg-bellofatto-06349810a/' target='_blank'><BsLinkedin /></a>
+            <a className='github' href='https://github.com/Bello2288' target='_blank'><BsGithub /></a>
+            <a className='email' href='mailto:bellofattogregg@gmail.com'><AiOutlineMail /></a>
+          </div>
         </div>
       </section>
       

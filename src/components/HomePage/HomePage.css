@@ -118,3 +118,27 @@
     height: 350px;
     width: 350px;
 }
+
+.social_icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.linkedin {
+    transform: translateY(42px) rotate(-15deg);
+    font-size: 39px;
+    color: #0E76A8;
+    cursor: pointer;
+}
+.github {
+    transform: translateY(27px);
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+.email {
+    transform: translateY(42px) rotate(15deg);
+    font-size: 42px;
+    color: #e59b1b;
+    cursor: pointer;
+}
