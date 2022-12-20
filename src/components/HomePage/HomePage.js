@@ -21,7 +21,7 @@ function HomePage() {
       <div className="nothing-you-can-do">Gregg Bellofatto</div>
       <div className="playball">Gregg Bellofatto</div> */}
       <section className='name-pic_box'>
-        <div className='name_role_box'>
+        <div className='name_role_box'> 
           <h2 className="rubik-80s-fade">Gregg Bellofatto</h2>
           <p className='role'>Software Developer</p>
         </div>

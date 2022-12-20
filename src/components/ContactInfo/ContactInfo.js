@@ -10,16 +10,16 @@ function ContactInfo() {
 
     return (
         <div className='contact'> 
-            <p>This is the contact info page</p>
+            <p>Please reach out to me. I would love chat over a cup of coffee, phone or video chat!</p>
             <div>
                 <a href="https://www.linkedin.com/in/gregg-bellofatto-06349810a/" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
-            {/* <div>
-                <a href=""></a>
+            <div>
+                <a href='https://github.com/Bello2288' target='_blank'></a>
             </div>
             <div>
-                <a href=""></a>
-            </div> */}
+                <a href='mailto:bellofattogregg@gmail.com'></a>
+            </div>
             <Button
                 className='back-btn'
                 type='button'
