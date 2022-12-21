@@ -15,10 +15,10 @@ function ContactInfo() {
                 <a href="https://www.linkedin.com/in/gregg-bellofatto-06349810a/" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
             <div>
-                <a href='https://github.com/Bello2288' target='_blank'></a>
+                <a href='https://github.com/Bello2288' target='_blank'>GitHub</a>
             </div>
             <div>
-                <a href='mailto:bellofattogregg@gmail.com'></a>
+                <a href='mailto:bellofattogregg@gmail.com'>Email</a>
             </div>
             <Button
                 className='back-btn'
