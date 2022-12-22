@@ -23,7 +23,7 @@ function ContactInfo() {
             <Button
                 className='back-btn'
                 type='button'
-                variant='primary'
+                variant='danger'
                 onClick={() => navigate(-1)}
             >
                 Back

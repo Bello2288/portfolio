@@ -68,11 +68,13 @@
    align-items: center;
  }
  .about-box > h1 {
-   font-family: 'Fredericka the Great', cursive;   
+   font-family: 'Fredericka the Great', cursive; 
+   color: rgb(209, 207, 207);  
  }
 
  .about-text {
    font-size: 25px;
+   color: rgb(209, 207, 207);
    /* font-family: 'Homemade Apple', cursive; */
    /* font-family: 'Lobster', cursive; */
    /* font-family: 'Kaushan Script', cursive; */

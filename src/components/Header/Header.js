@@ -13,7 +13,7 @@ function Header() {
           <Nav.Item>
             <Nav.Link href="/" className='nav_link'>
               Home
-            </Nav.Link>
+            </Nav.Link> 
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href="/about_me" className='nav_link'>

@@ -42,7 +42,7 @@
     font-size: 70px;
     color: rgb(255, 255, 255);
 }
-
+ 
 .black-ops-one {
     font-family: 'Black Ops One', cursive;
     font-size: 75px;
@@ -129,6 +129,9 @@
     color: #0E76A8;
     cursor: pointer;
 }
+.linkedin:hover {
+    color: #e59b1b;
+}
 .github {
     transform: translateY(27px);
     font-size: 40px;
@@ -141,4 +144,7 @@
     font-size: 42px;
     color: #e59b1b;
     cursor: pointer;
+}
+.email:hover {
+    color: #5f5e5e;
 }

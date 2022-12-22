@@ -13,7 +13,7 @@ import { BsLinkedin } from 'react-icons/bs'
 
 function HomePage() { 
   return (
-    <main className="footer-container">
+    <main className="footer-container"> 
       {/* <div className="name-tag">Gregg Bellofatto</div>
       <div className="homemade-apple">Gregg Bellofatto</div>
       <div className="kaushan-script">Gregg Bellofatto</div>
