@@ -37,6 +37,7 @@
    left: -5%;
    border-bottom-left-radius: 15px;
    border-bottom-right-radius: 15px;
+   /* box-shadow: 10px 10px 8px rgba(236, 10, 10, 0.44); */
  }
 
  .carousel-caption {
@@ -66,12 +67,25 @@
    flex-direction: column;
    align-items: center;
  }
+ .about-box > h1 {
+   font-family: 'Fredericka the Great', cursive;   
+ }
 
  .about-text {
    font-size: 25px;
+   /* font-family: 'Homemade Apple', cursive; */
+   /* font-family: 'Lobster', cursive; */
+   /* font-family: 'Kaushan Script', cursive; */
+   /* font-family: 'Nothing You Could Do', cursive; */
+   /* font-family: 'Playball'; */
+   /* font-family: 'Bree Serif', serif; */
+   font-family: 'Cabin Sketch', cursive;
+   /* font-family: 'Caveat', cursive; */
+
    width: 80%;
    margin-bottom: 50px;
    padding: 15px 55px 5px 55px;
    line-height: 1.5;
-   background-color: #232222;
- }
+   /* background-color: #232222; */
+   background-image: linear-gradient(to bottom right, #1a1414, #5f1919);
+}

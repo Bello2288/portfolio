@@ -31,7 +31,7 @@ function App() {
       <section className='flex-carousel'>
         <Carousel fade className='carousel-container'>
           <Carousel.Item>
-            <img
+            <img 
               className="testing pic1"
               src={family}
               alt="First slide"
@@ -117,7 +117,7 @@ function App() {
       <Button
         className='back-btn'
         type='button'
-        variant='primary'
+        variant='danger'
         onClick={() => navigate(-1)}
         >
             Back
