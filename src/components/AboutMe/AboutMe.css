@@ -69,7 +69,8 @@
  }
  .about-box > h1 {
    font-family: 'Fredericka the Great', cursive; 
-   color: rgb(209, 207, 207);  
+   color: rgb(209, 207, 207); 
+   margin-bottom: 25px; 
  }
 
  .about-text {
@@ -90,4 +91,6 @@
    line-height: 1.5;
    /* background-color: #232222; */
    background-image: linear-gradient(to bottom right, #1a1414, #5f1919);
+   border: 2px solid #050505;
+   border-radius: 5px;
 }

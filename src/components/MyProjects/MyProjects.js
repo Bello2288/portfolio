@@ -16,7 +16,7 @@ function MyProjects() {
 
     return (  
       <main>
-        <p>This is the My Projects Page</p>
+        <h1 className='my-projects'>My Projects</h1>
         <section className='project-list'>
           <div className='link-box'>
             <a href="https://github.com/Bello2288" target="_blank"><img className='link-img github-hp' src={github} alt="github_logo"></img></a>
