@@ -10,7 +10,8 @@ function ContactInfo() {
 
     return (
         <div className='contact'> 
-            <p>Please reach out to me. I would love chat over a cup of coffee, phone or video chat!</p>
+            <h1 className='contact-info'>Contact Me</h1>
+            <p className='contact-text'>Please reach out to me. I would love chat over a cup of coffee, phone or video chat!</p>
             <div>
                 <a href="https://www.linkedin.com/in/gregg-bellofatto-06349810a/" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
