@@ -7,8 +7,86 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio 2.0</title>
 </head>
-<body>
+<body class="flex flex-col items-center justify-center>
     <h1 class="text-3xl">Portfolio 2.0</h1>
+
+    <!-- NavBar Section -->
+    <nav class="">
+        <!-- Nav Bar Container -->
+        <div class="container flex flex-col items-center justify-center">
+            This is the Nav Bar section
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="flex flex-col items-center justify-center w-full h-96">
+        <!-- Hero Container -->
+        <div class="flex flex-col">
+            <nav class="flex items-center justify-between font-bold text-white">
+                <!-- Logo -->
+                <img src="images/logo.svg" alt="">
+                <!-- Menu -->
+                <div class="hidden h-10 font-alata md:flex md:space-x-8 border-2 border-red-500">
+                    <div class="group">
+                        <a href="hero">Home</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                    </div>
+                    <div class="group">
+                        <a href="about">About Me</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                    </div>
+                    <div class="group">
+                        <a href="Projects">My Projects</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                    </div>
+                    <div class="group">
+                        <a href="contact">Contact Me</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                    </div>
+                    <div class="group">
+                        <a href="#">Support</a>
+                        <div class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                    </div>
+                </div>
+                <!-- Hamburger Button -->
+                <div class="md:hidden">
+                    <button id="menu-btn" type="button" class= "z-40 block hamburger md:hidden focus:outline-none">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
+            </nav>
+            This is the Hero Section
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <!-- About Me Container -->
+        <div class="container flex -flex-col items-center justify-center">
+            This is the About Me section
+        </div>
+    </section>
+
+    <!-- My Projects Section -->
+    <section id="projects">
+        <!-- Projects Container -->
+        <div class="container flex flex-col items-center justify-center"></div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+        <!-- Contact Container -->
+        <div class="container flex flex-col items-center justify-center">
+            This is the Contact Me section
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="flex flex-col">
+        This is the Footer
+    </footer>
     
 </body>
 </html>
