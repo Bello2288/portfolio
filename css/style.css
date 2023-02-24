@@ -692,7 +692,7 @@ video {
 .accordion-cell:nth-child(1) {
   background-image: url('../images/on_deck.png');
   background-size: cover;
-  background-position: 50% 30%;
+  background-position: 0% 0%;
 }
 
 .accordion-cell:nth-child(2) {
@@ -728,7 +728,7 @@ video {
   line-height: 1em;
   text-align: left;
   color: white;
-  background-color: rgba(5, 5, 5, 0.6);
+  background-color: rgba(5, 5, 5, 0.7);
   transform: rotate(-90deg);
   transition-property: left right transform;
   transition-duration: 250ms;
@@ -757,7 +757,7 @@ video {
   font-weight: 500;
   color: white;
   padding: 2rem;
-  background-color: rgba(5, 5, 5, 0.6);
+  background-color: rgba(5, 5, 5, 0.7);
   border-radius: 2rem;
 }
 
