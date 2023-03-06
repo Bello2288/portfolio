@@ -576,8 +576,24 @@ video {
   height: 2.5rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .flex-col {
@@ -594,6 +610,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .border-4 {
@@ -622,6 +642,11 @@ video {
 .border-orange-500 {
   --tw-border-opacity: 1;
   border-color: rgb(249 115 22 / var(--tw-border-opacity));
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .text-3xl {
