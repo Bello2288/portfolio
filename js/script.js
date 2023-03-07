@@ -11,4 +11,3 @@ jQuery ( '.accordion-cell' ).click (  function  ( ) {
       jQuery ( this ).siblings ( ).toggleClass ( 'collapsed' );
     }
   } );
-  
