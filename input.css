@@ -8,11 +8,11 @@
     background-size: cover;
 }
 
-@media (min-width: 895px) {
+/* @media (min-width: 895px) {
     #hero {
         background-position: left;
     }
-}
+} */
 
 
 #page-container {
