@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#hero {
-    background-image: url('../images/digital-abstract.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 /* @media (min-width: 895px) {
     #hero {
